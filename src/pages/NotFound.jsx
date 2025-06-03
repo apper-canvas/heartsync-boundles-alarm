@@ -41,11 +41,11 @@ const NotFound = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <ApperIcon name="Home" size={20} />
-              <span>Back to HeartSync</span>
+<ApperIcon name="Home" size={20} />
+<span>Back to HeartSync</span>
             </motion.button>
-          </motion.
-        </div>
+          </Link>
+        </motion.div>
       </motion.div>
     </div>
   )
