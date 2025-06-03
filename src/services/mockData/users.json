@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1",
+    "name": "Emma",
+    "age": 26,
+    "bio": "Adventure seeker, coffee lover, and yoga enthusiast. Looking for someone to explore the city with!",
+    "photos": [
+      "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Yoga", "Travel", "Photography", "Coffee", "Hiking"],
+    "location": {
+      "lat": 40.7128,
+      "lng": -74.0060,
+      "distance": "2 km away"
+    },
+    "preferences": {
+      "ageRange": [22, 35],
+      "maxDistance": 25
+    }
+  },
+  {
+    "id": "2",
+    "name": "Sophia",
+    "age": 24,
+    "bio": "Artist and musician who loves live concerts and weekend farmers markets. Let's create something beautiful together!",
+    "photos": [
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Music", "Art", "Concerts", "Cooking", "Reading"],
+    "location": {
+      "lat": 40.7614,
+      "lng": -73.9776,
+      "distance": "5 km away"
+    },
+    "preferences": {
+      "ageRange": [20, 30],
+      "maxDistance": 20
+    }
+  },
+  {
+    "id": "3",
+    "name": "Isabella",
+    "age": 28,
+    "bio": "Professional chef who believes the way to someone's heart is through their stomach. Love trying new restaurants!",
+    "photos": [
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Cooking", "Food", "Wine", "Travel", "Dancing"],
+    "location": {
+      "lat": 40.7589,
+      "lng": -73.9851,
+      "distance": "3 km away"
+    },
+    "preferences": {
+      "ageRange": [25, 35],
+      "maxDistance": 15
+    }
+  },
+  {
+    "id": "4",
+    "name": "Maya",
+    "age": 25,
+    "bio": "Fitness trainer and outdoor enthusiast. Always up for a hike or trying a new workout class. Let's stay active together!",
+    "photos": [
+      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Fitness", "Hiking", "Rock Climbing", "Nutrition", "Yoga"],
+    "location": {
+      "lat": 40.7505,
+      "lng": -73.9934,
+      "distance": "1 km away"
+    },
+    "preferences": {
+      "ageRange": [22, 32],
+      "maxDistance": 30
+    }
+  },
+  {
+    "id": "5",
+    "name": "Aria",
+    "age": 27,
+    "bio": "Tech enthusiast and bookworm. Spend my weekends at museums or cozy bookshops. Looking for deep conversations!",
+    "photos": [
+      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Technology", "Reading", "Museums", "Science", "Board Games"],
+    "location": {
+      "lat": 40.7831,
+      "lng": -73.9712,
+      "distance": "7 km away"
+    },
+    "preferences": {
+      "ageRange": [24, 35],
+      "maxDistance": 25
+    }
+  },
+  {
+    "id": "6",
+    "name": "Luna",
+    "age": 23,
+    "bio": "Psychology student with a passion for understanding people. Love deep conversations over coffee or long walks in the park.",
+    "photos": [
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Psychology", "Coffee", "Walking", "Podcasts", "Meditation"],
+    "location": {
+      "lat": 40.7282,
+      "lng": -74.0776,
+      "distance": "4 km away"
+    },
+    "preferences": {
+      "ageRange": [20, 28],
+      "maxDistance": 20
+    }
+  },
+  {
+    "id": "7",
+    "name": "Zoe",
+    "age": 29,
+    "bio": "Marketing professional who loves creativity and innovation. Weekend warrior who enjoys wine tastings and art galleries.",
+    "photos": [
+      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Marketing", "Wine", "Art Galleries", "Creativity", "Networking"],
+    "location": {
+      "lat": 40.7648,
+      "lng": -73.9808,
+      "distance": "6 km away"
+    },
+    "preferences": {
+      "ageRange": [26, 38],
+      "maxDistance": 35
+    }
+  },
+  {
+    "id": "8",
+    "name": "Chloe",
+    "age": 26,
+    "bio": "Veterinarian who adores animals and nature. Spend my free time volunteering at animal shelters and exploring national parks.",
+    "photos": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Animals", "Veterinary", "Nature", "Volunteering", "Camping"],
+    "location": {
+      "lat": 40.7178,
+      "lng": -74.0431,
+      "distance": "8 km away"
+    },
+    "preferences": {
+      "ageRange": [23, 33],
+      "maxDistance": 40
+    }
+  },
+  {
+    "id": "9",
+    "name": "Ava",
+    "age": 30,
+    "bio": "Freelance writer and travel blogger. Always planning my next adventure. Looking for a travel companion and life partner!",
+    "photos": [
+      "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1485875437342-9b39470b3d95?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Writing", "Travel", "Blogging", "Photography", "Culture"],
+    "location": {
+      "lat": 40.7411,
+      "lng": -73.9897,
+      "distance": "2 km away"
+    },
+    "preferences": {
+      "ageRange": [27, 40],
+      "maxDistance": 50
+    }
+  },
+  {
+    "id": "10",
+    "name": "Grace",
+    "age": 24,
+    "bio": "Environmental scientist passionate about sustainability. Love hiking, gardening, and finding eco-friendly solutions to everyday problems.",
+    "photos": [
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Environment", "Science", "Hiking", "Gardening", "Sustainability"],
+    "location": {
+      "lat": 40.7935,
+      "lng": -73.9523,
+      "distance": "9 km away"
+    },
+    "preferences": {
+      "ageRange": [21, 30],
+      "maxDistance": 30
+    }
+  },
+  {
+    "id": "11",
+    "name": "Lily",
+    "age": 27,
+    "bio": "Dance instructor with a passion for movement and expression. Love salsa nights and teaching others the joy of dance!",
+    "photos": [
+      "https://images.unsplash.com/photo-1506629905607-c5b31b78e5e3?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Dancing", "Salsa", "Teaching", "Music", "Performance"],
+    "location": {
+      "lat": 40.7549,
+      "lng": -73.9840,
+      "distance": "3 km away"
+    },
+    "preferences": {
+      "ageRange": [24, 34],
+      "maxDistance": 25
+    }
+  },
+  {
+    "id": "12",
+    "name": "Mia",
+    "age": 25,
+    "bio": "Graphic designer who sees beauty in everything. Love museums, design exhibitions, and creating visual stories. Let's design our future together!",
+    "photos": [
+      "https://images.unsplash.com/photo-1521146764736-56c929d59c83?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Design", "Art", "Museums", "Creativity", "Visual Arts"],
+    "location": {
+      "lat": 40.7690,
+      "lng": -73.9781,
+      "distance": "5 km away"
+    },
+    "preferences": {
+      "ageRange": [22, 32],
+      "maxDistance": 20
+    }
+  },
+  {
+    "id": "13",
+    "name": "Nora",
+    "age": 28,
+    "bio": "Pediatric nurse who loves helping others. Spend my free time reading, baking, and volunteering. Looking for someone with a kind heart!",
+    "photos": [
+      "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Healthcare", "Reading", "Baking", "Volunteering", "Kindness"],
+    "location": {
+      "lat": 40.7359,
+      "lng": -74.0014,
+      "distance": "4 km away"
+    },
+    "preferences": {
+      "ageRange": [25, 35],
+      "maxDistance": 30
+    }
+  },
+  {
+    "id": "14",
+    "name": "Ruby",
+    "age": 26,
+    "bio": "Photographer capturing life's beautiful moments. Love sunrise shoots, street photography, and finding hidden gems in the city.",
+    "photos": [
+      "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1491349174775-aaafddd81942?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Photography", "Art", "Sunrise", "City Exploration", "Creativity"],
+    "location": {
+      "lat": 40.7198,
+      "lng": -74.0090,
+      "distance": "6 km away"
+    },
+    "preferences": {
+      "ageRange": [23, 33],
+      "maxDistance": 35
+    }
+  },
+  {
+    "id": "15",
+    "name": "Stella",
+    "age": 29,
+    "bio": "Software engineer by day, stargazer by night. Love solving complex problems and exploring the mysteries of the universe. Let's debug life together!",
+    "photos": [
+      "https://images.unsplash.com/photo-1509460913899-515f1df34fea?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&h=600&fit=crop&crop=face"
+    ],
+    "interests": ["Programming", "Astronomy", "Technology", "Problem Solving", "Science"],
+    "location": {
+      "lat": 40.7829,
+      "lng": -73.9654,
+      "distance": "7 km away"
+    },
+    "preferences": {
+      "ageRange": [26, 38],
+      "maxDistance": 40
+    }
+  }
+]

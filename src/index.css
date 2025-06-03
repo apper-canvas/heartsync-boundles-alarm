@@ -1,0 +1,115 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'react-toastify/dist/ReactToastify.css';
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .glass-morphism {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #E91E63, #9C27B0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-surface-200;
+  }
+  
+  body {
+    @apply text-surface-800 font-sans;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold;
+  }
+
+  h1 {
+    @apply text-3xl sm:text-4xl lg:text-5xl;
+  }
+
+  h2 {
+    @apply text-2xl sm:text-3xl lg:text-4xl;
+  }
+
+  h3 {
+    @apply text-xl sm:text-2xl lg:text-3xl;
+  }
+
+  h4 {
+    @apply text-lg sm:text-xl lg:text-2xl;
+  }
+
+  button {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  input, textarea {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}
+
+/* Custom animations */
+@keyframes swipeLeft {
+  to {
+    transform: translateX(-100%) rotate(-30deg);
+    opacity: 0;
+  }
+}
+
+@keyframes swipeRight {
+  to {
+    transform: translateX(100%) rotate(30deg);
+    opacity: 0;
+  }
+}
+
+@keyframes heartBeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.swipe-left {
+  animation: swipeLeft 0.3s ease-out forwards;
+}
+
+.swipe-right {
+  animation: swipeRight 0.3s ease-out forwards;
+}
+
+.heart-beat {
+  animation: heartBeat 0.6s ease-in-out;
+}
+
+/* Touch-friendly design */
+@media (max-width: 768px) {
+  button {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+}

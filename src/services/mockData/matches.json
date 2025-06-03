@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "user1Id": "current-user",
+    "user2Id": "2",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "lastActivity": "2024-01-15T14:45:00Z"
+  },
+  {
+    "id": "2",
+    "user1Id": "current-user",
+    "user2Id": "5",
+    "timestamp": "2024-01-14T16:20:00Z",
+    "lastActivity": "2024-01-15T09:12:00Z"
+  },
+  {
+    "id": "3",
+    "user1Id": "current-user",
+    "user2Id": "8",
+    "timestamp": "2024-01-13T19:45:00Z",
+    "lastActivity": "2024-01-14T11:30:00Z"
+  },
+  {
+    "id": "4",
+    "user1Id": "current-user",
+    "user2Id": "11",
+    "timestamp": "2024-01-12T14:15:00Z",
+    "lastActivity": "2024-01-13T16:22:00Z"
+  },
+  {
+    "id": "5",
+    "user1Id": "current-user",
+    "user2Id": "13",
+    "timestamp": "2024-01-11T12:00:00Z",
+    "lastActivity": "2024-01-12T08:45:00Z"
+  },
+  {
+    "id": "6",
+    "user1Id": "current-user",
+    "user2Id": "7",
+    "timestamp": "2024-01-10T17:30:00Z",
+    "lastActivity": "2024-01-11T20:15:00Z"
+  },
+  {
+    "id": "7",
+    "user1Id": "current-user",
+    "user2Id": "14",
+    "timestamp": "2024-01-09T13:45:00Z",
+    "lastActivity": "2024-01-10T10:30:00Z"
+  },
+  {
+    "id": "8",
+    "user1Id": "current-user",
+    "user2Id": "3",
+    "timestamp": "2024-01-08T11:20:00Z",
+    "lastActivity": "2024-01-09T15:45:00Z"
+  },
+  {
+    "id": "9",
+    "user1Id": "current-user",
+    "user2Id": "9",
+    "timestamp": "2024-01-07T15:10:00Z",
+    "lastActivity": "2024-01-08T18:20:00Z"
+  },
+  {
+    "id": "10",
+    "user1Id": "current-user",
+    "user2Id": "12",
+    "timestamp": "2024-01-06T09:30:00Z",
+    "lastActivity": "2024-01-07T12:15:00Z"
+  }
+]
