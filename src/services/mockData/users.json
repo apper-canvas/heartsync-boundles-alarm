@@ -1,302 +1,362 @@
 [
   {
     "id": "1",
-    "name": "Emma",
-    "age": 26,
-    "bio": "Adventure seeker, coffee lover, and yoga enthusiast. Looking for someone to explore the city with!",
+    "name": "Emma Watson",
+    "age": 28,
+    "bio": "Adventure seeker, book lover, and coffee enthusiast. Looking for someone to explore the world with! 🌍📚☕",
     "photos": [
       "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Yoga", "Travel", "Photography", "Coffee", "Hiking"],
-    "location": {
-      "lat": 40.7128,
-      "lng": -74.0060,
-      "distance": "2 km away"
-    },
+    "interests": ["Travel", "Reading", "Coffee", "Hiking", "Photography"],
+    "values": ["Adventure", "Growth", "Authenticity", "Curiosity"],
     "preferences": {
-      "ageRange": [22, 35],
-      "maxDistance": 25
-    }
+      "ageRange": { "min": 25, "max": 35 },
+      "maxDistance": 30,
+      "relationshipType": "Serious"
+    },
+    "education": "Master's Degree",
+    "occupation": "Marketing Manager",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Socially",
+      "exercise": "Regular"
+    },
+    "location": {
+      "distance": "2 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T10:30:00Z"
   },
   {
     "id": "2",
-    "name": "Sophia",
-    "age": 24,
-    "bio": "Artist and musician who loves live concerts and weekend farmers markets. Let's create something beautiful together!",
+    "name": "Sophia Chen",
+    "age": 25,
+    "bio": "Yoga instructor by day, artist by night. Passionate about mindful living and creative expression 🧘‍♀️🎨",
     "photos": [
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Music", "Art", "Concerts", "Cooking", "Reading"],
-    "location": {
-      "lat": 40.7614,
-      "lng": -73.9776,
-      "distance": "5 km away"
-    },
+    "interests": ["Yoga", "Art", "Meditation", "Healthy Living", "Music"],
+    "values": ["Mindfulness", "Creativity", "Balance", "Peace"],
     "preferences": {
-      "ageRange": [20, 30],
-      "maxDistance": 20
-    }
+      "ageRange": { "min": 23, "max": 32 },
+      "maxDistance": 20,
+      "relationshipType": "Casual"
+    },
+    "education": "Bachelor's Degree",
+    "occupation": "Yoga Instructor",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Rarely",
+      "exercise": "Daily"
+    },
+    "location": {
+      "distance": "1 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T09:45:00Z"
   },
   {
     "id": "3",
-    "name": "Isabella",
-    "age": 28,
-    "bio": "Professional chef who believes the way to someone's heart is through their stomach. Love trying new restaurants!",
+    "name": "Isabella Rodriguez",
+    "age": 30,
+    "bio": "Tech entrepreneur with a passion for innovation and sustainability. Let's build a better future together! 💡🌱",
     "photos": [
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Cooking", "Food", "Wine", "Travel", "Dancing"],
-    "location": {
-      "lat": 40.7589,
-      "lng": -73.9851,
-      "distance": "3 km away"
-    },
+    "interests": ["Technology", "Sustainability", "Entrepreneurship", "Innovation", "Fitness"],
+    "values": ["Innovation", "Sustainability", "Leadership", "Impact"],
     "preferences": {
-      "ageRange": [25, 35],
-      "maxDistance": 15
-    }
+      "ageRange": { "min": 27, "max": 38 },
+      "maxDistance": 40,
+      "relationshipType": "Serious"
+    },
+    "education": "Master's Degree",
+    "occupation": "Tech CEO",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Socially",
+      "exercise": "Regular"
+    },
+    "location": {
+      "distance": "3 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T11:20:00Z"
   },
   {
     "id": "4",
-    "name": "Maya",
-    "age": 25,
-    "bio": "Fitness trainer and outdoor enthusiast. Always up for a hike or trying a new workout class. Let's stay active together!",
+    "name": "Olivia Thompson",
+    "age": 26,
+    "bio": "Professional chef who loves creating culinary masterpieces. Foodie looking for someone to share amazing meals with! 👩‍🍳🍽️",
     "photos": [
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Fitness", "Hiking", "Rock Climbing", "Nutrition", "Yoga"],
-    "location": {
-      "lat": 40.7505,
-      "lng": -73.9934,
-      "distance": "1 km away"
-    },
+    "interests": ["Cooking", "Fine Dining", "Wine Tasting", "Travel", "Food Photography"],
+    "values": ["Creativity", "Passion", "Excellence", "Sharing"],
     "preferences": {
-      "ageRange": [22, 32],
-      "maxDistance": 30
-    }
+      "ageRange": { "min": 24, "max": 34 },
+      "maxDistance": 25,
+      "relationshipType": "Serious"
+    },
+    "education": "Culinary Arts Degree",
+    "occupation": "Executive Chef",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Regularly",
+      "exercise": "Moderate"
+    },
+    "location": {
+      "distance": "4 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T08:15:00Z"
   },
   {
     "id": "5",
-    "name": "Aria",
+    "name": "Ava Martinez",
     "age": 27,
-    "bio": "Tech enthusiast and bookworm. Spend my weekends at museums or cozy bookshops. Looking for deep conversations!",
+    "bio": "Environmental scientist working to protect our planet. Love hiking, nature photography, and sustainable living 🌿📸",
     "photos": [
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Technology", "Reading", "Museums", "Science", "Board Games"],
-    "location": {
-      "lat": 40.7831,
-      "lng": -73.9712,
-      "distance": "7 km away"
-    },
+    "interests": ["Environmental Science", "Hiking", "Photography", "Sustainability", "Wildlife"],
+    "values": ["Environmental Protection", "Science", "Conservation", "Future Generations"],
     "preferences": {
-      "ageRange": [24, 35],
-      "maxDistance": 25
-    }
+      "ageRange": { "min": 25, "max": 33 },
+      "maxDistance": 35,
+      "relationshipType": "Serious"
+    },
+    "education": "PhD",
+    "occupation": "Environmental Scientist",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Rarely",
+      "exercise": "Regular"
+    },
+    "location": {
+      "distance": "5 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T07:30:00Z"
   },
   {
     "id": "6",
-    "name": "Luna",
-    "age": 23,
-    "bio": "Psychology student with a passion for understanding people. Love deep conversations over coffee or long walks in the park.",
+    "name": "Charlotte Davis",
+    "age": 29,
+    "bio": "Architect with a passion for design and urban planning. Creating beautiful spaces that bring people together 🏗️✏️",
     "photos": [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Psychology", "Coffee", "Walking", "Podcasts", "Meditation"],
-    "location": {
-      "lat": 40.7282,
-      "lng": -74.0776,
-      "distance": "4 km away"
-    },
+    "interests": ["Architecture", "Design", "Art", "Urban Planning", "Sketching"],
+    "values": ["Design", "Beauty", "Function", "Community"],
     "preferences": {
-      "ageRange": [20, 28],
-      "maxDistance": 20
-    }
+      "ageRange": { "min": 26, "max": 36 },
+      "maxDistance": 30,
+      "relationshipType": "Casual"
+    },
+    "education": "Master's Degree",
+    "occupation": "Architect",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Socially",
+      "exercise": "Moderate"
+    },
+    "location": {
+      "distance": "2 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T12:00:00Z"
   },
   {
     "id": "7",
-    "name": "Zoe",
-    "age": 29,
-    "bio": "Marketing professional who loves creativity and innovation. Weekend warrior who enjoys wine tastings and art galleries.",
+    "name": "Mia Johnson",
+    "age": 24,
+    "bio": "Dance instructor and fitness enthusiast. Life is better when you're moving! Looking for a dance partner in life 💃✨",
     "photos": [
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Marketing", "Wine", "Art Galleries", "Creativity", "Networking"],
-    "location": {
-      "lat": 40.7648,
-      "lng": -73.9808,
-      "distance": "6 km away"
-    },
+    "interests": ["Dance", "Fitness", "Music", "Performance", "Teaching"],
+    "values": ["Movement", "Expression", "Joy", "Energy"],
     "preferences": {
-      "ageRange": [26, 38],
-      "maxDistance": 35
-    }
+      "ageRange": { "min": 22, "max": 30 },
+      "maxDistance": 20,
+      "relationshipType": "Casual"
+    },
+    "education": "Bachelor's Degree",
+    "occupation": "Dance Instructor",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Socially",
+      "exercise": "Daily"
+    },
+    "location": {
+      "distance": "3 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T13:45:00Z"
   },
   {
     "id": "8",
-    "name": "Chloe",
-    "age": 26,
-    "bio": "Veterinarian who adores animals and nature. Spend my free time volunteering at animal shelters and exploring national parks.",
+    "name": "Amelia Brown",
+    "age": 31,
+    "bio": "Veterinarian who loves all animals big and small. Compassionate heart seeking someone who shares my love for creatures 🐾❤️",
     "photos": [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Animals", "Veterinary", "Nature", "Volunteering", "Camping"],
-    "location": {
-      "lat": 40.7178,
-      "lng": -74.0431,
-      "distance": "8 km away"
-    },
+    "interests": ["Veterinary Medicine", "Animal Rescue", "Hiking", "Reading", "Volunteering"],
+    "values": ["Compassion", "Animal Welfare", "Healing", "Service"],
     "preferences": {
-      "ageRange": [23, 33],
-      "maxDistance": 40
-    }
+      "ageRange": { "min": 28, "max": 38 },
+      "maxDistance": 25,
+      "relationshipType": "Serious"
+    },
+    "education": "Doctor of Veterinary Medicine",
+    "occupation": "Veterinarian",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Rarely",
+      "exercise": "Regular"
+    },
+    "location": {
+      "distance": "4 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T14:20:00Z"
   },
   {
     "id": "9",
-    "name": "Ava",
-    "age": 30,
-    "bio": "Freelance writer and travel blogger. Always planning my next adventure. Looking for a travel companion and life partner!",
+    "name": "Harper Wilson",
+    "age": 26,
+    "bio": "Graphic designer with a creative soul. I find beauty in the everyday and love bringing ideas to life through design 🎨💻",
     "photos": [
-      "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1485875437342-9b39470b3d95?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Writing", "Travel", "Blogging", "Photography", "Culture"],
-    "location": {
-      "lat": 40.7411,
-      "lng": -73.9897,
-      "distance": "2 km away"
-    },
+    "interests": ["Graphic Design", "Art", "Technology", "Coffee", "Museums"],
+    "values": ["Creativity", "Aesthetics", "Innovation", "Beauty"],
     "preferences": {
-      "ageRange": [27, 40],
-      "maxDistance": 50
-    }
+      "ageRange": { "min": 24, "max": 32 },
+      "maxDistance": 20,
+      "relationshipType": "Casual"
+    },
+    "education": "Bachelor's Degree",
+    "occupation": "Graphic Designer",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Socially",
+      "exercise": "Moderate"
+    },
+    "location": {
+      "distance": "1 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T15:10:00Z"
   },
   {
     "id": "10",
-    "name": "Grace",
-    "age": 24,
-    "bio": "Environmental scientist passionate about sustainability. Love hiking, gardening, and finding eco-friendly solutions to everyday problems.",
+    "name": "Evelyn Garcia",
+    "age": 28,
+    "bio": "Travel blogger exploring the world one destination at a time. Adventure awaits, and I'd love someone to share it with! ✈️🌍",
     "photos": [
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1506629905294-b1cea1facfc9?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Environment", "Science", "Hiking", "Gardening", "Sustainability"],
-    "location": {
-      "lat": 40.7935,
-      "lng": -73.9523,
-      "distance": "9 km away"
-    },
+    "interests": ["Travel", "Blogging", "Photography", "Culture", "Adventure"],
+    "values": ["Adventure", "Discovery", "Culture", "Freedom"],
     "preferences": {
-      "ageRange": [21, 30],
-      "maxDistance": 30
-    }
+      "ageRange": { "min": 25, "max": 35 },
+      "maxDistance": 50,
+      "relationshipType": "Casual"
+    },
+    "education": "Bachelor's Degree",
+    "occupation": "Travel Blogger",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Socially",
+      "exercise": "Regular"
+    },
+    "location": {
+      "distance": "6 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T16:00:00Z"
   },
   {
     "id": "11",
-    "name": "Lily",
-    "age": 27,
-    "bio": "Dance instructor with a passion for movement and expression. Love salsa nights and teaching others the joy of dance!",
+    "name": "Luna Kim",
+    "age": 25,
+    "bio": "Software engineer by day, musician by night. Code and music are my languages of love 👩‍💻🎵",
     "photos": [
-      "https://images.unsplash.com/photo-1506629905607-c5b31b78e5e3?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Dancing", "Salsa", "Teaching", "Music", "Performance"],
-    "location": {
-      "lat": 40.7549,
-      "lng": -73.9840,
-      "distance": "3 km away"
-    },
+    "interests": ["Programming", "Music", "Technology", "Gaming", "Concerts"],
+    "values": ["Logic", "Creativity", "Innovation", "Harmony"],
     "preferences": {
-      "ageRange": [24, 34],
-      "maxDistance": 25
-    }
+      "ageRange": { "min": 23, "max": 32 },
+      "maxDistance": 25,
+      "relationshipType": "Serious"
+    },
+    "education": "Master's Degree",
+    "occupation": "Software Engineer",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Socially",
+      "exercise": "Moderate"
+    },
+    "location": {
+      "distance": "2 km away",
+      "city": "San Francisco"
+    },
+    "verified": true,
+    "lastActive": "2024-01-15T17:30:00Z"
   },
   {
     "id": "12",
-    "name": "Mia",
-    "age": 25,
-    "bio": "Graphic designer who sees beauty in everything. Love museums, design exhibitions, and creating visual stories. Let's design our future together!",
+    "name": "Aria Patel",
+    "age": 27,
+    "bio": "Psychologist passionate about mental health and wellness. Helping others find their path to happiness 🧠💙",
     "photos": [
-      "https://images.unsplash.com/photo-1521146764736-56c929d59c83?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=400&h=600&fit=crop&crop=face"
+      "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400&h=600&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=600&fit=crop&crop=face"
     ],
-    "interests": ["Design", "Art", "Museums", "Creativity", "Visual Arts"],
-    "location": {
-      "lat": 40.7690,
-      "lng": -73.9781,
-      "distance": "5 km away"
-    },
+    "interests": ["Psychology", "Wellness", "Reading", "Meditation", "Helping Others"],
+    "values": ["Empathy", "Understanding", "Growth", "Healing"],
     "preferences": {
-      "ageRange": [22, 32],
-      "maxDistance": 20
-    }
-  },
-  {
-    "id": "13",
-    "name": "Nora",
-    "age": 28,
-    "bio": "Pediatric nurse who loves helping others. Spend my free time reading, baking, and volunteering. Looking for someone with a kind heart!",
-    "photos": [
-      "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?w=400&h=600&fit=crop&crop=face"
-    ],
-    "interests": ["Healthcare", "Reading", "Baking", "Volunteering", "Kindness"],
-    "location": {
-      "lat": 40.7359,
-      "lng": -74.0014,
-      "distance": "4 km away"
+      "ageRange": { "min": 25, "max": 33 },
+      "maxDistance": 30,
+      "relationshipType": "Serious"
     },
-    "preferences": {
-      "ageRange": [25, 35],
-      "maxDistance": 30
-    }
-  },
-  {
-    "id": "14",
-    "name": "Ruby",
-    "age": 26,
-    "bio": "Photographer capturing life's beautiful moments. Love sunrise shoots, street photography, and finding hidden gems in the city.",
-    "photos": [
-      "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1491349174775-aaafddd81942?w=400&h=600&fit=crop&crop=face"
-    ],
-    "interests": ["Photography", "Art", "Sunrise", "City Exploration", "Creativity"],
-    "location": {
-      "lat": 40.7198,
-      "lng": -74.0090,
-      "distance": "6 km away"
+    "education": "PhD",
+    "occupation": "Clinical Psychologist",
+    "lifestyle": {
+      "smoking": false,
+      "drinking": "Rarely",
+      "exercise": "Regular"
     },
-    "preferences": {
-      "ageRange": [23, 33],
-      "maxDistance": 35
-    }
-  },
-  {
-    "id": "15",
-    "name": "Stella",
-    "age": 29,
-    "bio": "Software engineer by day, stargazer by night. Love solving complex problems and exploring the mysteries of the universe. Let's debug life together!",
-    "photos": [
-      "https://images.unsplash.com/photo-1509460913899-515f1df34fea?w=400&h=600&fit=crop&crop=face",
-      "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&h=600&fit=crop&crop=face"
-    ],
-    "interests": ["Programming", "Astronomy", "Technology", "Problem Solving", "Science"],
     "location": {
-      "lat": 40.7829,
-      "lng": -73.9654,
-      "distance": "7 km away"
+      "distance": "3 km away",
+      "city": "San Francisco"
     },
-    "preferences": {
-      "ageRange": [26, 38],
-      "maxDistance": 40
-    }
+    "verified": true,
+    "lastActive": "2024-01-15T18:15:00Z"
   }
 ]

@@ -32,7 +32,7 @@ const MainFeature = () => {
 
   const currentUser = users[currentIndex]
 
-  const handleSwipe = async (direction) => {
+const handleSwipe = async (direction) => {
     if (!currentUser) return
 
     setSwipeDirection(direction)
@@ -40,19 +40,37 @@ const MainFeature = () => {
     setTimeout(async () => {
       if (direction === 'right') {
         try {
-          // Simulate creating a match
-          const match = await matchService.create({
-            user1Id: 'current-user',
-            user2Id: currentUser.id,
-            timestamp: new Date().toISOString(),
-            lastActivity: new Date().toISOString()
-          })
+          // Create current user profile for compatibility calculation
+          const currentUserProfile = {
+            id: 'current-user',
+            name: 'You',
+            age: 28,
+            interests: ['Travel', 'Fitness', 'Photography', 'Music'],
+            values: ['Honesty', 'Adventure', 'Family', 'Growth'],
+            preferences: {
+              ageRange: { min: 22, max: 35 },
+              maxDistance: 25,
+              relationshipType: 'Serious'
+            },
+            education: 'Bachelor\'s',
+            occupation: 'Software Engineer',
+            lifestyle: {
+              smoking: false,
+              drinking: 'Socially',
+              exercise: 'Regular'
+            },
+            location: { distance: 0 }
+          }
+
+          // Create match with compatibility scoring
+          const match = await matchService.createWithCompatibility(currentUserProfile, currentUser)
           
           // Simulate random match (30% chance)
           if (Math.random() > 0.7) {
             setLastMatch({
               user: currentUser,
-              matchId: match.id
+              matchId: match.id,
+              compatibility: match.compatibility
             })
             setShowMatchModal(true)
             toast.success(`It's a match with ${currentUser.name}! 💕`)
@@ -292,7 +310,7 @@ const MainFeature = () => {
         </motion.button>
       </motion.div>
 
-      {/* Match Modal */}
+{/* Match Modal */}
       <AnimatePresence>
         {showMatchModal && lastMatch && (
           <motion.div
@@ -303,7 +321,7 @@ const MainFeature = () => {
             onClick={closeMatchModal}
           >
             <motion.div
-              className="bg-white rounded-3xl p-8 text-center max-w-sm w-full shadow-card"
+              className="bg-white rounded-3xl p-8 text-center max-w-md w-full shadow-card max-h-[90vh] overflow-y-auto"
               initial={{ opacity: 0, scale: 0.8, y: 50 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.8, y: 50 }}
@@ -336,6 +354,143 @@ const MainFeature = () => {
                   />
                 </div>
               </div>
+              
+              {/* AI Compatibility Score */}
+              {lastMatch.compatibility && (
+                <motion.div
+                  className="mb-8 p-6 bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl border border-primary/10"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.3 }}
+                >
+                  <div className="flex items-center justify-center mb-4">
+                    <div className="relative">
+                      <svg className="w-24 h-24 transform -rotate-90" viewBox="0 0 100 100">
+                        <circle
+                          cx="50"
+                          cy="50"
+                          r="40"
+                          stroke="currentColor"
+                          strokeWidth="8"
+                          fill="none"
+                          className="text-surface-200"
+                        />
+                        <motion.circle
+                          cx="50"
+                          cy="50"
+                          r="40"
+                          stroke="url(#compatibilityGradient)"
+                          strokeWidth="8"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeDasharray={`${2 * Math.PI * 40}`}
+                          initial={{ strokeDashoffset: 2 * Math.PI * 40 }}
+                          animate={{ 
+                            strokeDashoffset: 2 * Math.PI * 40 * (1 - lastMatch.compatibility.overallScore / 100)
+                          }}
+                          transition={{ duration: 1.5, ease: "easeOut" }}
+                        />
+                        <defs>
+                          <linearGradient id="compatibilityGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stopColor="#E91E63" />
+                            <stop offset="100%" stopColor="#9C27B0" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <motion.span
+                          className="text-2xl font-bold gradient-text"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ delay: 0.8 }}
+                        >
+                          {lastMatch.compatibility.overallScore}%
+                        </motion.span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-lg font-semibold mb-4 text-surface-800">
+                    AI Compatibility Analysis
+                  </h3>
+                  
+                  <div className="space-y-3 text-left">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-surface-600">Shared Interests</span>
+                      <div className="flex items-center space-x-2">
+                        <div className="w-16 bg-surface-200 rounded-full h-2">
+                          <motion.div
+                            className="bg-gradient-to-r from-primary to-secondary h-2 rounded-full"
+                            initial={{ width: 0 }}
+                            animate={{ width: `${lastMatch.compatibility.breakdown.interests}%` }}
+                            transition={{ delay: 1, duration: 0.8 }}
+                          />
+                        </div>
+                        <span className="text-sm font-medium text-surface-700">
+                          {lastMatch.compatibility.breakdown.interests}%
+                        </span>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-surface-600">Core Values</span>
+                      <div className="flex items-center space-x-2">
+                        <div className="w-16 bg-surface-200 rounded-full h-2">
+                          <motion.div
+                            className="bg-gradient-to-r from-primary to-secondary h-2 rounded-full"
+                            initial={{ width: 0 }}
+                            animate={{ width: `${lastMatch.compatibility.breakdown.values}%` }}
+                            transition={{ delay: 1.2, duration: 0.8 }}
+                          />
+                        </div>
+                        <span className="text-sm font-medium text-surface-700">
+                          {lastMatch.compatibility.breakdown.values}%
+                        </span>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-surface-600">Preferences</span>
+                      <div className="flex items-center space-x-2">
+                        <div className="w-16 bg-surface-200 rounded-full h-2">
+                          <motion.div
+                            className="bg-gradient-to-r from-primary to-secondary h-2 rounded-full"
+                            initial={{ width: 0 }}
+                            animate={{ width: `${lastMatch.compatibility.breakdown.preferences}%` }}
+                            transition={{ delay: 1.4, duration: 0.8 }}
+                          />
+                        </div>
+                        <span className="text-sm font-medium text-surface-700">
+                          {lastMatch.compatibility.breakdown.preferences}%
+                        </span>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-surface-600">Lifestyle</span>
+                      <div className="flex items-center space-x-2">
+                        <div className="w-16 bg-surface-200 rounded-full h-2">
+                          <motion.div
+                            className="bg-gradient-to-r from-primary to-secondary h-2 rounded-full"
+                            initial={{ width: 0 }}
+                            animate={{ width: `${lastMatch.compatibility.breakdown.lifestyle}%` }}
+                            transition={{ delay: 1.6, duration: 0.8 }}
+                          />
+                        </div>
+                        <span className="text-sm font-medium text-surface-700">
+                          {lastMatch.compatibility.breakdown.lifestyle}%
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-4 p-3 bg-white/50 rounded-xl">
+                    <p className="text-xs text-surface-600 leading-relaxed">
+                      Our AI analyzed your profiles across interests, values, preferences, and lifestyle to calculate this compatibility score.
+                    </p>
+                  </div>
+                </motion.div>
+              )}
               
               <p className="text-surface-600 mb-8">
                 You and {lastMatch.user.name} have liked each other!
